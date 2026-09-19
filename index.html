@@ -2,15 +2,18 @@
 <html>
   <head>
     <title>RemRoo</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="global.css">
+<link rel="stylesheet" media="screen and (max-width: 1024px)" href="mobile.css">
+<link rel="stylesheet" media="screen and (min-width: 1025px)" href="desktop.css">
+
   </head>
   <body>
-    <ul id="navbar">
-      <li><a href="games.html">Games</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="random.html">Random Stuff</a></li>
-    </ul>
-      <h1 class="title">I am RemRoo</h1>
+    <div id="navbar">
+      <div><a href="games.html">Games</a></div>
+      <div><a href="about.html">About</a></div>
+      <div><a href="random.html">Random Stuff</a></div>
+    </div>
+      <h1>I am RemRoo</h1>
       <p>Welcome to my website</p>
       <hr>
       <h2>My <i>Other</i> websites:</h2>
@@ -18,9 +21,14 @@
         <li><a href="4mfo16.mimo.run">Roogle</a></li>
         <li><a href="columbiacity.netlify.app">Explore Columbia City</a></li>
         <p>---------------------</p>
-        <li>A work in progress: <a href="https://inuxiz.mimo.run/index.html">CrushMarket</a></li>
+        <li>A work in progress: <a href="https://inuxiz.mimo.run/index.html">CrushMarket</a></li><hr>
       </ul>
-
+    <div id="text-about-me">
+      <p>Hello There! I am RemRoo, also known as <span id="mbappboy">@Mbappboy</span> on Scratch.</p>
+      <p>I like to code and play sports--baseball, cricket, football, futbol--and I speak English, na Kiswahili kidogo (And a little Swahili).</p>
+      <p>I made this website partially as a promotional page for my other good-domainless websites, Roogle, Explore Columbia City, and Crush Market (&uarr;)</p>
+      <p>But other than that, you can also find games, more stuff about me and this website, and just completely random stuff.</p>
+    </div>
       <script src="script.js"></script>
   </body>
 </html>
