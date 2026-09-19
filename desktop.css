@@ -12,6 +12,7 @@ a {
   margin: 0;
   gap: 15px;
   background-image: linear-gradient(to right, red, orange, yellow, lime, green, lightblue, blue, pink, purple);
+  width: 40%
 }
 #navbar a {
     color: rgb(0, 0, 0);
@@ -21,4 +22,10 @@ a {
 #navbar a:hover {
   transform: scale(1.13);
   transition-duration: 1.5s;
+}
+#mbappboy {
+  font-family: 'Courier New', Courier, monospace;
+}
+#text-about-me {
+  width: 40%
 }
