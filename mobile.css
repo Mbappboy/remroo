@@ -1,0 +1,22 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar {
+  background-color: #333;
+}
+#navbar a {
+  color: #DDD;
+  list-style-type: none;
+  font-size: 20px;
+}
+#navbar div {
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  font-family: 60px;
+}
+a {
+  color: black;
+  font-size: 25px;
+}
