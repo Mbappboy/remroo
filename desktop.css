@@ -29,3 +29,19 @@ a {
 #text-about-me {
   width: 40%
 }
+#randombutton {
+  padding: 50px;
+  font-size: 45px;
+  text-align: center;
+  background-color: maroon;
+  color: white;
+  cursor: crosshair;
+}
+#randomkahoot {
+  padding: 50px;
+  font-size: 45px;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  cursor: crosshair;
+}
